@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+body{
+margin:0;
+padding:0;
+}
+.x{
+width:250px;
+height:550px;
+background:#000;
+position:absolute;
+left:60px;
+top:40px;
+border-radius:27px;
+}
+.y{
+position:relative;
+top:15px;
+left:5px;
+width:240px;
+height:515px;
+background:rgba(255,255,255,.3);
+border-radius:15px 15px 18px 18px;
+overflow:hidden;
+}
+img{
+width:100%;
+height:100%;
+opacity:0;
+transition:1s;
+}
+.y:hover img{
+opacity:1;
+}
+</style>
+</head>
+<body>
+<div class="x" >
+<div class="y" ><img src="S.png" ></div>
+</div>
+</body>
+</html>
